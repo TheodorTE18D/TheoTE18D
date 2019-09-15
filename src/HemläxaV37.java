@@ -22,6 +22,11 @@ public class HemläxaV37 {
 		String userCity = input.nextLine();
 		System.out.print("Vad är ditt telefonnummer?");
 		String userPhone = input.nextLine();
+		System.out.println("Information:");
+		System.out.println("Namn:\t\t" + user);
+		System.out.println("Ålder:\t\t" + userAge + " år");
+		System.out.println("Adress:\t\t" + userAddress);
+		System.out.println("\t\t" + userZipCode + " " + userCity);
+		System.out.println("Telefon:\t" + userPhone);
     }
-    
 }
