@@ -12,6 +12,8 @@ public class HemläxaV37 {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Vad heter du?");
 		String user = input.nextLine();
+		System.out.print("Hur gammal är du?");
+		String userAge = input.nextLine();
     }
     
 }
