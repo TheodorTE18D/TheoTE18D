@@ -7,5 +7,8 @@
  *
  */
 public class HemläxaV37 {
-
+    main(){
+    	
+    }
+    
 }
