@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="V.38"/>
+	<classpathentry kind="src" path="v.39"/>
+	<classpathentry kind="src" path="v40"/>
+	<classpathentry kind="src" path="Läxav39"/>
+	<classpathentry kind="src" path="kattis"/>
+	<classpathentry kind="src" path="LäxaV40"/>
+	<classpathentry kind="src" path="v.41"/>
+	<classpathentry kind="src" path="v.43"/>
+	<classpathentry kind="src" path="Läxa5"/>
+	<classpathentry kind="src" path="v.45"/>
+	<classpathentry kind="src" path="v.46"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
