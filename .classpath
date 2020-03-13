@@ -12,6 +12,9 @@
 	<classpathentry kind="src" path="Läxa5"/>
 	<classpathentry kind="src" path="v.45"/>
 	<classpathentry kind="src" path="v.46"/>
+	<classpathentry kind="src" path="v.48"/>
+	<classpathentry kind="src" path="v.3"/>
+	<classpathentry kind="src" path="taluppgift"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -5,14 +5,17 @@ public class quadrant {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		// Deklarerar variablerna
+		
 		int x = 0;
 		int y = 0;
 		int kvadrant = 0;
 		
-		// Läsa in x
 		
 		Scanner input = new Scanner(System.in);
+		
+		// Läsa in x
 		
 		x = input.nextInt();
 		
@@ -21,7 +24,8 @@ public class quadrant {
 		y = input.nextInt();
 		
 		// Kolla vilken kvadrant som är rätt
-	    if (x > 0 & y > 0) {
+	    
+		if (x > 0 & y > 0) {
 	    	kvadrant = 1;
 	    }
 	    else if (x < 0 & y > 0) {
@@ -35,6 +39,7 @@ public class quadrant {
 	    }
 	    
 		// Skriv ut kvadranten
+	    
 	    System.out.println(kvadrant);
 	}
 

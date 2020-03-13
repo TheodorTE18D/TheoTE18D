@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class metodsuppgift {
 	
 	public static void main(String[] args) {
-		
+		/*
 		  System.out.println(fahrenheitToKelvin(100));
 		  System.out.println(kelvinToCelsius(0));
 		  System.out.println(velocityConversion(90));
@@ -13,7 +13,7 @@ public class metodsuppgift {
 		  System.out.println(svtTime(10,2)); System.out.println(work(50,10));
 		  System.out.println(velocityToHeight(9.82));
 		  System.out.println(sphereVolumeToRadius(20));
-		  bestTeam();
+		  bestTeam();*/
 		  nameBackward();
 	}
 	/**
