@@ -52,7 +52,10 @@ public class talspel {
 			}
 		}
 	}
-
+/**
+ * Skapar en random interger mellan två intergers.
+ * @param guesses
+ */
 	private static void Guess(int guesses) {
 		System.out.println("Choose two numbers to guess between");
 		int nmr1 = input();
@@ -102,8 +105,11 @@ public class talspel {
 		}
 
 	}
-
-	private static void playmusic(String Filepath) { // Tar in en ljudfil och spelar upp den filen när den blir kallad
+/**
+ * Tar in en ljudfil och spelar upp den filen när den blir kallad
+ * @param Filepath
+ */
+	private static void playmusic(String Filepath) { 
 		InputStream music;
 		try {
 			music = new FileInputStream(new File(Filepath));
@@ -114,7 +120,12 @@ public class talspel {
 		}
 	}
 
-	private static int input() { // Kollar ifall inputet är en interger om inte skriver den ut "write a number" istället för att programmet crashar
+	/**
+	 *  Kollar ifall inputet är en interger om inte skriver den ut "write a number" istället för att programmet crashar
+	 * @return
+	 */
+	
+	private static int input() { 
 		int crashtest = 0;
 		while (true) {
 			try {
