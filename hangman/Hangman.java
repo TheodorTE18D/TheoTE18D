@@ -1,7 +1,6 @@
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
-import java.time.Clock;
 import java.util.Scanner;
 import sun.audio.AudioPlayer;
 import sun.audio.AudioStream;
